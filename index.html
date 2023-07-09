@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+    <title>Projeto - Semana do Zero Ao Programador Contratado</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,84 +15,126 @@
   </head>
   <body>
     <header class="cabecalho">
-      <img class="logo" src="src/imagens/logo.svg" alt="x-men" />
+      <img class="logo" src="src/imagens/logoPokemon.png" alt="KoF" />
     </header>
 
     <main class="selecao-de-personagens">
       <section class="personagens">
-        <h1 class="titulo">Selecione um personagem</h1>
+        <h1 class="titulo">Selecione um Pokemon</h1>
         <ul class="lista-de-personagens">
-          <li class="personagem selecionado" id="ciclope">
+          <li
+            class="personagem selecionado"
+            id="PIkachu"
+            data-name="Pikachu"
+            data-description="Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender."
+          >
             <img
-              src="./src/imagens/card-ciclope.jpg"
-              alt="Personagem Ciclope"
+              src="./src/imagens/card-pikachu.jpg"
+              alt="Personagem Pikachu"
             />
           </li>
-          <li class="personagem" id="jean-grey">
+          <li
+            class="personagem"
+            id="squirtle"
+            data-name="squirtle"
+            data-description="Squirtle Tem Uma Pele Azul Claro E Usa Um Casco E Junto Também Tem Uma Calda Longa Azul. O Seu Casco Não É Apenas Para A Proteção, A Sua Forma Arredondada Do Casco E As Ranhuras Em Sua Superfície Ajudam A Minimizar A Resistência Na Água, Permitindo Que Este Pokémon Nade Em Altas Velocidades."
+          >
             <img
-              src="./src/imagens/card-jean-grey.jpg"
-              alt="Personagem Jean Grey"
-            />
-          </li>
-
-          <li class="personagem" id="lince-negra">
-            <img
-              src="./src/imagens/card-lince-negra.jpg"
-              alt="Personagem Lince Negra"
-            />
-          </li>
-
-          <li class="personagem" id="tempestade">
-            <img
-              src="./src/imagens/card-tempestade.jpg"
-              alt="Personagem Tempestade"
+              src="./src/imagens/card-squirtle.jpg"
+              alt="Personagem squirtle"
             />
           </li>
 
-          <li class="personagem" id="vampira">
+          <li
+            class="personagem"
+            id="Charmander"
+            data-name="Charmander"
+            data-description="A chama que arde na ponta da cauda é uma indicação das suas emoções. A chama vacila quando Charmander está desfrutando de si mesmo. Se o Pokémon fica furioso, a chama queima ferozmente."
+          >
             <img
-              src="./src/imagens/card-vampira.jpg"
-              alt="Personagem Vampira"
+              src="./src/imagens/card-charmander.jpg"
+              alt="Personagem Charmander"
             />
           </li>
 
-          <li class="personagem" id="Wolverine">
+          <li
+            class="personagem"
+            id="Bulbasaur"
+            data-name="Bulbasaur"
+            data-description="Bulbassauro pode ser visto cochilando sob luz solar intensa. Há uma semente na sua parte traseira. Por absorvendo os raios do sol, a semente cresce progressivamente maior."
+          >
             <img
-              src="./src/imagens/card-wolverine.jpg"
-              alt="Personagem Wolverine"
+              src="./src/imagens/card-bulbasaur.jpg"
+              alt="Personagem Bulbasaur"
             />
           </li>
 
-          <li class="personagem" id="noturno">
+          <li
+            class="personagem"
+            id="Staryu"
+            data-name="Staryu"
+            data-description=""
+          >
+            <img src="./src/imagens/card-staryu.jpg" alt="Personagem Staryu" />
+          </li>
+
+          <li
+            class="personagem"
+            id="Eevee"
+            data-name="Eevee"
+            data-description="Eevee tem uma composição genética instável que, de repente se transforma devido ao ambiente em que vive. Radiação de várias pedras faz com que esse Pokémon evolua."
+          >
+            <img src="./src/imagens/card-eevee.jpg" alt="Personagem Eevee" />
+          </li>
+
+          <li
+            class="personagem"
+            id="Dragonite"
+            data-name="Dragonite"
+            data-description="É um pokémon do tipo Dragão/Voador e é muito raro. Apesar de ser grande, o Dragonite é incrivelmente ágil e rápido. Os Dragonites tem uma tendência a ter um bom coração e dizem ter inteligência semelhante a humana."
+          >
             <img
-              src="./src/imagens/card-noturno.jpg"
-              alt="Personagem Noturno"
+              src="./src/imagens/card-dragonite.jpg"
+              alt="Personagem Dragonite"
             />
           </li>
 
-          <li class="personagem" id="magneto">
-            <img
-              src="./src/imagens/card-magneto.jpg"
-              alt="Personagem Magneto"
-            />
+          <li
+            class="personagem"
+            id="Lapras"
+            data-name="Lapras"
+            data-description="Lapras arremessa pedaços de gelo para a frente, causando dano aos adversários atingidos e deixando-os congelados por um curto período de tempo. Se Pedaço de Gelo atingir um Pokémon oponente que já está congelado, ele causa dano a ele e o empurra.17"
+          >
+            <img src="./src/imagens/card-lapras.jpg" alt="Personagem Lapras" />
+          </li>
+          <li
+            class="personagem"
+            id="Gengar"
+            data-name="Gengar"
+            data-description="É um Pokémon que se esconde nas sombras, um mestre em ataques surpresa. Ele é classificado como um Speedster com ataque corpo a corpo, ou seja, um Pokémon que pode entrar e sair da batalha rapidamente, agindo como um assassino."
+          >
+            <img src="./src/imagens/card-gengar.jpg" alt="Personagem Gengar" />
           </li>
         </ul>
       </section>
       <section class="personagem-selecionado">
         <img
           class="personagem-grande"
-          src="./src/imagens/card-ciclope.png"
+          src="./src/imagens/card-pikachu.png"
           alt="Personagem Selecionado"
         />
 
         <div class="informacoes-personagem">
-          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <h2 class="nome-personagem" id="nome-personagem">Pikachu</h2>
           <p class="descricao-personagem" id="descricao-personagem">
-            Ele tem o poder de disparar rajadas ópticas por um acidente que
-            aconteceu com ele quando criança, mas não consegue controlá-los
+            Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas,
+            identificado por discos vermelhos que decoram, são capazes de gerar
+            choques elétricos de intensidade variável, chegando até o nível de
+            poder de um raio. Eles também o usam para se defender.
           </p>
         </div>
       </section>
     </main>
+    <script src="src/js/index.js"></script>
   </body>
 </html>
